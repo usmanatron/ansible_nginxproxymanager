@@ -1,0 +1,6 @@
+---
+# tasks file for ansible_role_template
+- name: "Hello World!"
+  ansible.builtin.debug:
+    msg: Hello World!
+    

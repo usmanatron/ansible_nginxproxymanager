@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "redhat.ansible",
+    "ms-azuretools.vscode-docker",
+    "timonwong.shellcheck",
+    "vscode-icons-team.vscode-icons",
+    "christian-kohler.path-intellisense"
+  ]
+}

@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Usman Iqbal
+  namespace: usmanatron
+  role_name: template
+  description: your role description
+  license: MIT
+  min_ansible_version: "2.10"
+
+  platforms:
+  - name: Debian
+    versions:
+      - bullseye
+
+  galaxy_tags: []
+
+dependencies: []
