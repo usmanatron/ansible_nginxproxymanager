@@ -1,0 +1,12 @@
+# {{ ansible_managed }}
+version: "3.7"
+
+services:
+  app:
+    image: jc21/nginx-proxy-manager:{{ npm_version }}
+    ports:
+      - 8085:80
+    restart: always
+    volumes:
+      - {{ app_folder }}/data:/data
+      - {{ app_folder }}/letsencrypt:/etc/letsencrypt

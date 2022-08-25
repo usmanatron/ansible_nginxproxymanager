@@ -1,2 +1,3 @@
 ---
-# defaults file for ansible_role_template
+app_name: npm
+app_folder: "/apps/{{ app_name }}"

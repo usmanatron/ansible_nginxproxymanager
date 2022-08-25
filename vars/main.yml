@@ -1,2 +1,2 @@
 ---
-# vars file for ansible_role_template
+npm_version: v2.9.18

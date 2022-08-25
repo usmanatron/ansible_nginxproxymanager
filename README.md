@@ -1,12 +1,12 @@
-# Ansible Role: template
+# Ansible Role: Nginx Proxy Manager
 
-A brief description of the role goes here.
+Install Nginx Proxy Manager.  Includes local directory backups
 
 ## Requirements
 
 This role assumes the following:
 
-* TODO
+* Docker is installed
 
 ## Role Variables
 
@@ -14,13 +14,14 @@ This role assumes the following:
 
 | Name | Details |
 | --- | --- |
-| `TODO` | TODO |
+| `npm_version` | The version of the Docker container to use.  Available versions are [here](https://hub.docker.com/r/jc21/nginx-proxy-manager) |
 
 ### Default Variables
 
 | Name | Default Value | Details |
 | --- | --- | --- |
-| `TODO` | `TODO` | TODO |
+| `app_name` | `npm` | Used to name things |
+| `app_folder` | `/apps/npm` | The base directory for deployment |
 
 ## Dependencies
 
