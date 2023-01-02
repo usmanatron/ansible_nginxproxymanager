@@ -5,7 +5,9 @@ services:
   app:
     image: jc21/nginx-proxy-manager:{{ npm_version }}
     ports:
-      - 8085:80
+      - 80:80
+      - 443:443
+      - {{ npm_admin_port }}:81
     restart: always
     volumes:
       - {{ app_folder }}/data:/data
